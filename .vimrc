@@ -40,5 +40,5 @@ colorscheme cake
 let g:airline_theme='papercolor' 
 
 map <C-\> :NERDTreeToggle<CR>
-
+nnoremap <F5> :!firefox %<CR>  " browser preview with ctrl-o
 call plug#end()
